@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy: https://tranquil-earth-69363.herokuapp.com/
+  provider: heroku
+  api_key:
+    secure: S3cmrymwmb3QT9NfNRGFLC+30i5udzN9jk+oPiRylpXSjHvwoydchcQH667VTXuIulp8jXlmW6yndEOhwj+YvjLChi3l9kVTvXr0dq2iM7m1qgDJ4lzCmJMNjEZXBkxJfB6A2VK0S42KOgrMsiuk1F3N+wmnzsnbcSRzqAcuCY3HlzwQUKtDcj8CZm0ZTw4zwvc3V9XEV8d6+D5WQixkO0uo/hXkD/ufS0yGsCDaQcwNzODQ72rlT5FhwA/gwvwm1G1cBDTJCqnAIuSq6dsK9y4pb74DtLUvVjBESJinBxjqpSAS/fnjfhxHX16lPJN4Q/gZ8JJHs/999IHKFHW2YhT4x7bSSGXrjiZcxqWZf7zH/XC9ftBcuf+zeV+4d/ki5429SYbnky3lu6a7fik3kbfLBylYWG99PEWjUZzl3mu18U3+1A3ogfxqcFxOFZ6Di0USG3QdS9tc0bzZk2HZbl2QnjwsbgGm4LhUQWMjqPaXNPYrG+S1EaBwikeC8DMf66Q7mDtv/Pkgq7D6B6ZZGZSvF6WTB0E5JG7DJ2smsF2ZAPiPwEYxabsDYDa5+JT+E9wj3vEu68WU5b5jUhzIlQkiE+CTVN8WTG8bPIs77+4+7ry2W5Yy4w999mgsTY0k9MMv4FUOiIw9Js9M43o0/tbTxX/Y+ZbeiI1brAST+0w=
+  app: node-shopping-list-v5
+  on:
+    repo: fjvarg4k/node-shopping-list-v5
